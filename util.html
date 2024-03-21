@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootfinal.css">
+</head>
+<body id="mainbody">
+    <nav class="navbar navbar-light bg-light" style="background-color: white; box-shadow: 0px 8px 8px -6px rgba(5, 141, 252, 0.5);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Screenshot 2024-03-14 104411.png" alt="" width="120" height="60" class="d-inline-block align-text-top" >
+                <h3 class="d-inline-block" style="color: purple;"></h3>
+              </a>
+         
+        
+            <button class="btn btn-outline-success rounded-circle" type="submit" style="color: purple; border: 1px solid purple; background-color:  rgb(235, 91, 139);">ma</button>
+        
+        </div>
+       
+      </nav>
+      <a href="bootfinal.html">
+      <button style="border: none; background-color: white; margin-left: 10px;"><i class="fa-solid fa-arrow-left"></i> Back</button>
+    </a>
+      <br><br>
+      <p style="margin-left: 10px; font-weight: bold;">FEBRUARY 2024</p>
+      <span>
+        <strong style="margin-left: 10px; font-size: x-large; padding-right: 10px;">Utilities</strong> Total   <strong style="padding-left: 10px; font-size: x-large;">₹ 3,879.00</strong>
+        <button style="float: right; background-color: rgb(158, 3, 158); color: white; margin-right: 10px;"  data-bs-toggle="modal" data-bs-target="#myModal">Add Bills</button>
+      </span>
+
+      <div class="container-fluid me-5">
+      <table class="table">
+       
+        <tbody>
+          
+          <tr>
+            <td>BillNo</td>
+            <td>Date</td>
+            <td>Shop/Company/Person</td>
+            <td>Description</td>
+            <td>Amount</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-wifi"></i> B234567/2024</td>
+            <td>01 Feb 2024</td>
+            <td>BSNLCommunication</td>
+            <td>Internet,cable and landline</td>
+            <td>₹ 590.00   <i class="fa-solid fa-pen"  style="float: right;"></i>   <i class="fa-solid fa-trash"  style="float: right;"></i></td>
+          </tr>
+          <tr>
+            <td><i class="fa-regular fa-lightbulb"></i> KS786799</td>
+            <td>05 Feb 2024</td>
+            <td>KSEB LTD</td>
+            <td>Electricity Bill</td>
+            <td>₹ 2,360.00  <i class="fa-solid fa-pen"  style="float: right;"></i>   <i class="fa-solid fa-trash"  style="float: right;"></i></td>
+          </tr>
+          <tr>
+            <td> <i class="fa-solid fa-droplet"></i> KW3467899</td>
+            <td>07 Feb 2024</td>
+            <td>Kerala State Water Authority</td>
+            <td>Water Bill</td>
+            <td>₹ 800.00  <i class="fa-solid fa-pen"  style="float: right;"></i>   <i class="fa-solid fa-trash"  style="float: right;"></i></td>
+          </tr>
+          <tr>
+            <td><i class="fa-regular fa-lightbulb"></i>KS786978</td>
+            <td>15 Feb 2024</td>
+            <td>KSEB LTD</td>
+            <td>Additional Electricity Bill</td>
+            <td>₹ 129.00  <i class="fa-solid fa-pen"  style="float: right;"></i>   <i class="fa-solid fa-trash"  style="float: right;"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="modal" id="myModal">
+      <div class="modal-dialog modal-dialog-centered modal-l">
+        <div class="modal-content">
+    
+          
+          <div class="modal-header">
+            <h4 class="modal-title">Add Bill</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+    
+          
+          <div class="modal-body">
+            <form action="">
+              <label for="">Type
+                <h5 style="border: 1px ridge purple;"><i class="fa-solid fa-wifi"></i> Internet <i class="fa-solid fa-chevron-down"></i></h5>
+              </label>
+              <label for="" style="float: right;"> Date
+                <h5 style=" border: 1px ridge purple;">01 FEBRUARY 2024 <i class="fa-solid fa-chevron-down"></i></h5>
+              </label>
+              
+            </form>
+            <br>
+            <form action="">
+              <div class="form-group">
+                <label for="type">Shop/Company/Person</label>
+                <h5 style="border: 1px ridge purple ;width: 470px;"> BSNL Communication</h5>
+                </div>
+            
+                <div class="form-group">
+                  <label for="type">Description</label>
+                  <h5 style="border: 1px ridge purple;height: 150px;">Internet,cable and landline</h5>
+                </div>
+            </form>
+            <form action="">
+              <label for="">
+                Amount
+                <h4 style="border: 1px ridge purple ;width: 100px; "><strong style="background-color: purple;color:  white; border: none;">₹ </strong>590.00</h4>
+              </label>
+            </form>
+            
+          </div>
+    
+          
+          <div class="modal-footer">
+            <a href="bootfinal.html"> <button type="button" class="btn btn-light" data-bs-dismiss="modal" style="border: 1px solid purple; color: purple;">Close</button>
+            </a>
+             <a href="bootfinal.html"><button type="button" class="btn btn-" data-bs-dismiss="modal" style="background-color: purple; color: white;">Save</button>
+             </a>
+            </div>
+          
+    
+        </div>
+      </div>
+    </div>
+      
+      
+     
+</body>
+</html>
